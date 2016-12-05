@@ -1,0 +1,69 @@
+20161202091444
+20161202091541
+20161202091644
+$ git clone "https://mannv:gauiu0908@github.com/mannv/full-lumen.git" "/home/ubuntu/public_html/full-lumen/releases/20161202091837" --branch="master" --depth="1"
+git clone "https://mannv:gauiu0908@github.com/mannv/full-lumen.git" "/home/ubuntu/public_html/full-lumen/releases/20161202091837" --branch="master" --depth="1"
+Cloning into '/home/ubuntu/public_html/full-lumen/releases/20161202091837'...
+$ cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+$ git submodule update --init --recursive
+cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+git submodule update --init --recursive
+
+
+/usr/local/bin/composer
+
+
+
+$ cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+$ chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+$ chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+$ chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite
+chmod: cannot access ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/app/database/production.sqlite’: No such file or directory
+$ cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+$ chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+$ chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+$ chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/app/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/app’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/framework/cache/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/framework/cache’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/framework/views/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/framework/views’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/framework’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/storage’: Operation not permitted
+$ cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+$ chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+$ chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+$ chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+cd /home/ubuntu/public_html/full-lumen/releases/20161202091837
+chmod -R 755 /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+chmod -R g+s /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+chown -R www-data:www-data /home/ubuntu/public_html/full-lumen/releases/20161202091837/public
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/public/index.php’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/public/.htaccess’: Operation not permitted
+chown: changing ownership of ‘/home/ubuntu/public_html/full-lumen/releases/20161202091837/public’: Operation not permitted
+$ rm -rf /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs
+rm -rf /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs
+
+$ ln -s /home/ubuntu/public_html/full-lumen/shared/storage/logs /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs-temp
+$ mv -Tf /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs-temp /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs
+ln -s /home/ubuntu/public_html/full-lumen/shared/storage/logs /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs-temp
+mv -Tf /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs-temp /home/ubuntu/public_html/full-lumen/releases/20161202091837/storage/logs
+
+$ ln -s /home/ubuntu/public_html/full-lumen/releases/20161202091837 /home/ubuntu/public_html/full-lumen/current-temp
+$ mv -Tf /home/ubuntu/public_html/full-lumen/current-temp /home/ubuntu/public_html/full-lumen/current
+ln -s /home/ubuntu/public_html/full-lumen/releases/20161202091837 /home/ubuntu/public_html/full-lumen/current-temp
+mv -Tf /home/ubuntu/public_html/full-lumen/current-temp /home/ubuntu/public_html/full-lumen/current
+
+|=> Successfully deployed release 20161202091837
+|=> No releases to prune from the server
